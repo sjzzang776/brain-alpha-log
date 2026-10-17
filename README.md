@@ -11,12 +11,15 @@ For each alpha I record the **idea → settings → results → why it behaved t
 | Week | Topic | Simulations | Best alpha | Key takeaway | Report |
 |---|---|---|---|---|---|
 | [Week 1](week01/README.md) | Tutorial Ch.1–2: reversion, momentum, first submission | ~30 | Reversal + fundamentals blend (Sharpe 2.46, submitted) | Price–volume signals alone struggle to pass submission checks; blending signals with different horizons covers each other's weak years | [PDF](week01/week01_report.pdf) |
+| [Week 2](week02/README.md) | Tutorial Ch.3–4: fundamental and option alphas | 19 | Option IV gap + earnings-yield blend (Sharpe 2.49, submitted) | Compare a company with its own past (`ts_rank`), not just with peers; read failed checks before tuning | [PDF](week02/week02_report.pdf) |
 
 ## Best alphas so far
 
 | Week | Idea | Neutralization / Decay | Sharpe | Fitness | Turnover | Status |
 |---|---|---|---|---|---|---|
+| 2 | Call–put IV gap (volatility-bucket neutralized) + earnings-yield time-series rank | Subindustry / 4 | 2.49 | 1.69 | 24.44% | Submitted (ACTIVE) |
 | 1 | Short-term reversal + profitability, 50:50 | Industry / 10 | 2.46 | 1.91 | 18.96% | Submitted (ACTIVE) |
+| 2 | Earnings-yield time-series rank, TOP200 | Subindustry / 4 | 1.64 | 1.76 | 9.43% | Submitted (ACTIVE) |
 | 1 | CLV × volume reversion | Subindustry / 8 | 1.73 | 0.82 | 62.43% | Not submitted |
 | 1 | Close / VWAP reversion | Subindustry / 8 | 1.62 | 0.76 | 61.49% | Not submitted |
 
