@@ -128,6 +128,7 @@ Setting test period to 0 shows the full in-sample period that the submission che
 
 ![](img/10_top200_full_is.jpg)
 ![](img/10_checks_7pass.jpg)
+![Cumulative PnL](img/10_pnl.jpg)
 
 ---
 
@@ -202,6 +203,9 @@ Neutralization nearly doubled fitness. But it still **failed two submission chec
 
 ![](img/19_option_oey_blend.jpg)
 ![](img/19_checks_8pass.jpg)
+![Cumulative PnL](img/19_pnl.jpg)
+
+Both submitted alphas flattened in 2023 (Sharpe 1.02 and 0.59). Both use the earnings-yield time-series signal, which may have weakened that year.
 
 ---
 
